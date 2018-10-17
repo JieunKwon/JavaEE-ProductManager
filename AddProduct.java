@@ -18,9 +18,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * --------------------------------------------- 
- * @author JIEUN KWON (991447941)
+ * @author JIEUN KWON 
  *	
- * TASK : Assignment 2 
+ * TASK : 
  * Product Information Form & Servlet 
  * 
  * created Date : Oct 10, 2018 
@@ -84,20 +84,20 @@ public class AddProduct extends HttpServlet {
 		 String viewQuery="SELECT * from product where productid=?";
 		 
 		 // for html
-         String htmlRespone = "";	
-         // for print result message
-         String rstTitle = "";
-         String rstMsg = ""; 
+		 String htmlRespone = "";	
+		 // for print result message
+		 String rstTitle = "";
+		 String rstMsg = ""; 
         
 		 out.println("<html><head>"); 
 		 out.println("<link rel='stylesheet' type='text/css' href='" + request.getContextPath() +  "/style.css' />");
 		 out.println("</head><body>");
 		 
 		 try{
-			 	// init variables and get parameters
-			 	String mode = request.getParameter("mode");
-				String pcode = request.getParameter("pcode");
-				String pname = "";
+			// init variables and get parameters
+			String mode = request.getParameter("mode");
+			String pcode = request.getParameter("pcode");
+			String pname = "";
 		        double price = 0; 
 		        int qty = 0;
 		        String category = "";
@@ -107,9 +107,9 @@ public class AddProduct extends HttpServlet {
 		        Class.forName("com.mysql.jdbc.Driver").newInstance();     
 				con = DriverManager.getConnection(connectionUrl, connectionUser, connectionPassword);
 				
-				// ---------------------------------
-				// 	Add New Product (mode is add)
-				// ---------------------------------
+			// ---------------------------------
+			// 	Add New Product (mode is add)
+			// ---------------------------------
 		        if(mode.equals("add")) {
 		        	
 		        	rstTitle = "Add New Product";
@@ -144,9 +144,9 @@ public class AddProduct extends HttpServlet {
 			         
 			 		rstMsg = "Product is successfully added";
 		        
-			 	// ---------------------------------
-				// 	Edit Product (mode is edit)
-				// ---------------------------------
+			// ---------------------------------
+			// 	Edit Product (mode is edit)
+			// ---------------------------------
 		        }else if(mode.equals("edit")) {
 			 	
 		        	rstTitle = "Edit Product";
