@@ -1,0 +1,81 @@
+<!-- 
+/**
+ * --------------------------------------------- 
+ * @author JIEUN KWON (991447941)
+ *	
+ * TASK : Assignment 2 
+ * Product Information Form & Servlet 
+ * --------------------------------------------- 
+ *
+ * Page : style.css
+ * created Date : Oct 10, 2018 
+ * modified Date : Oct 10, 2018
+ */
+ -->
+body, table{ 
+			margin:20px auto; 
+			text-align:left;  
+			font-size:12px;  
+		}
+		
+		.mainT{
+			background-color:#ffffff;
+			border:thin solid #2BA5BA;
+			height:300px;
+			width:300px;
+			margin:20px auto; 
+			text-align:left; 
+			padding:25px;  
+			font-size:12px; 
+			color:#004554;
+
+		}
+		
+		.listT{
+			background-color:#ffffff;
+			border:thin solid #808080;
+			height:300px;
+			width:300px;
+			margin:20px auto;  
+			text-align:left;  
+   			font-family:Arial;
+			font-size:12px; 
+			color:#004554;
+
+		}
+		
+		.div_title{ 
+			color:#005766;
+			font-size:15px; 
+			font-weight:bold;
+			font-family:Arial;
+		}
+		
+		.prod_info{ 
+   		    padding-left: 10px; 
+			color:#0080c0;
+			font-size:15px; 
+			font-weight:bold; 
+			font-family:Arial;
+			height:20px
+		}
+		
+		.bt_general{
+			width: 80px;
+			height: 25px;
+			background-color:#F6F6F6;
+			border:thin solid #2BA5BA; 
+			border-radius:5px;
+			color:#000000;
+			font-size:10px;
+		}
+		
+		.bt_general:hover{
+				background-color:#F8FFFF;  
+			}
+				
+		.box_general{ 
+			border:thin solid #005766; 
+			background-color:#eeeeee;
+			font-size:12px; 
+		}
