@@ -1,6 +1,6 @@
 # JavaEE-ProductManager
 - JavaEE Dynamic Web Project
-- JavaEE(servlet), HTML, MySQL, Apache Tomcat
+- HTML+CSS+JS, JavaEE(servlet), MySQL, Apache Tomcat
 
 Files and Task
 ----------------
