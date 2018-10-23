@@ -9,6 +9,11 @@ Files and Task
 
    Web page for user 
    
+   Form to get information
+   
+   Form validation using JS
+  
+  
 2. AddProduct Java servlet
 
    Handling communications between server and browser
