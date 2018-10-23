@@ -11,4 +11,5 @@
 
 
 * Pages Features
-<img "/Capture_html.JPG">
+<img src="https://github.com/JieunKwon/JavaEE-ProductManager/Capture_html.JPG" width="150">
+![image](./Capture_html.JPG)
