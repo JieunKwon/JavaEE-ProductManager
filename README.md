@@ -7,27 +7,30 @@ Files and Task
 
 1. NewProduct.html 
 
-   Web page for user 
+   - Web page for user 
    
-   Form to get information
+   - Form to get information
    
-   Form validation using JS
+   - Form validation using JS
   
   
 2. AddProduct Java servlet
 
-   Handling communications between server and browser
-   Database access and transaction 
+   - Handling communications between server and browser
+   
+   - Database access and transaction 
+    
     
 3. MySQL
 
-   Back-end Database for product inventory
+   - Back-end Database for product inventory
 
 
 4. Additional pages
 
-    web.XML - Set to automatically load html page for occuring page error
+    - web.XML - Set to automatically load html page for occuring page error
     
+
 
  Page Features
  ----------------
