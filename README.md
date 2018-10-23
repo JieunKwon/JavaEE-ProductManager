@@ -2,10 +2,12 @@
 - JavaEE Dynamic Web Project
 - JavaEE(servlet), HTML, MySQL, Apache Tomcat
 
+Files and Task
+----------------
 
 1. NewProduct.html 
 
-   User 
+   Web page for user 
    
 2. AddProduct Java servlet
 
@@ -22,7 +24,7 @@
     web.XML - Set to automatically load html page for occuring page error
     
 
- Pages Features
+ Page Features
  ----------------
  
 1. user can enter product information to add or update 
